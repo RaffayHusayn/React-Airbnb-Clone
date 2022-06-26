@@ -1,0 +1,22 @@
+.hero-container{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image{
+    height: 100%;
+    width: 60%;
+    object-fit: contain;
+}
+
+.outside-hero-container{
+    text-align: left;
+}
+.hero-heading{
+    padding: 10px 0px 10px 50px;
+    font-size: 46px;
+    font-weight:600;
+}
