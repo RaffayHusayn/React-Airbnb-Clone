@@ -1,14 +1,14 @@
 import heroCover from '../images/airbnb-hero.png';
 import '../styles/Hero.css';
 
+let heroText="Join unique interactive activities led by one-of-a-kind hosts-- all without leaving home."
 function Hero(){
     return(
-        <div className='outside-hero-container'>
-            <div className='hero-container'>
-                <img src={heroCover} alt='hero-cover' className='hero-image'/>
-            </div>
+        <section className='hero-container'>
+            <img src={heroCover} alt='hero-cover' className='hero-image'/>
             <h1 className='hero-heading'>Online Experiences</h1>
-        </div>
+            <p className='hero-text'>{heroText}</p>
+        </section>
     )
 }
 

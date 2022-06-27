@@ -1,22 +1,30 @@
+section{
+    padding: 20px;
+}
+
 .hero-container{
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .hero-image{
-    height: 100%;
-    width: 60%;
+    max-width: 800px;
     object-fit: contain;
+    align-self: center;
 }
 
-.outside-hero-container{
-    text-align: left;
-}
 .hero-heading{
-    padding: 10px 0px 10px 50px;
+    padding: 10px 0px 10px 40px;
     font-size: 46px;
     font-weight:600;
+    text-align: left;
+    margin-bottom: 0;
+}
+.hero-text{
+    max-width: 600px;
+    margin-top: 0;
+    text-align: left;
+    padding: 10px 0px 10px 40px;
+    font-size: 26px;
+    font-weight: 300;
 }
