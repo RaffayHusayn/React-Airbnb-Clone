@@ -1,0 +1,47 @@
+.gray{
+    color: gray;
+}
+.card{
+    max-width: 176px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+}
+.card-image{
+    width: 176px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.card-star{
+    height: 16px;
+}
+
+.card-rating{
+    display: flex;
+    text-align: center;
+    /* padding-left: 10px; */
+
+}
+.card-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+.card-rating-text{
+    padding: 0px;
+    margin: 0px;
+}
+.card-description{
+    margin: 10px 0 0 0  ;
+    /* padding-left: 10px ; */
+    text-align: left;
+}
+
+.card-price{
+    margin: 10px 0 0 0;
+    /* padding-left: 10px ; */
+    text-align: left;
+
+}
