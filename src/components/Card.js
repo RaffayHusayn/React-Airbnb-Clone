@@ -9,7 +9,7 @@ function Card(){
             <div className="card-container">
                 <div className="card-rating">
                     <img src={starImage} alt="star-rating" className="card-star" />
-                    <p className="card-rating-text">5.0 <span className='gray'>(6) • USA</span> </p>
+                    <p className="card-rating-text">5.0<span className='gray'>(6)•USA</span> </p>
                 </div>
                 <p className="card-description">Life lesson with Katie</p>
                 <p className="card-price"><b>From $135</b>/ person</p>

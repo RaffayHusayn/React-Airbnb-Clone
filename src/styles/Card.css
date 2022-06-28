@@ -4,6 +4,7 @@
 .card{
     max-width: 176px;
     height: auto;
+    font-size: 12px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
 }
 .card-image{
@@ -13,7 +14,8 @@
 }
 
 .card-star{
-    height: 16px;
+    height: 12px;
+    margin-right: 4px;
 }
 
 .card-rating{
