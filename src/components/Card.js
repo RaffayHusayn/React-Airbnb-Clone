@@ -8,7 +8,7 @@ function Card(props){
             <div className="card-container">
                 <div className="card-rating">
                     <img src={starImage} alt="star-rating" className="card-star" />
-                    <p className="card-rating-text">{props.rating}<span className='gray'>({props.ratingtotal})•{props.location}</span> </p>
+                    <p className="card-rating-text">{props.rating.stars}<span className='gray'>({props.rating.totalratings})•{props.rating.location}</span> </p>
                 </div>
                 <p className="card-description">{props.desc}</p>
                 <p className="card-price"><b>${props.price}</b>/ person</p>
