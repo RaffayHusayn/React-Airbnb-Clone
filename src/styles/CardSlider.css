@@ -1,6 +1,10 @@
-  .card-slider {
-    display: flex;
-    gap: 10px;
-    padding: 1rem;
-    overflow-x: auto;
-  }
+.card-slider {
+  display: flex;
+  gap: 10px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.card-slider::-webkit-scrollbar {
+  display: none;
+}
