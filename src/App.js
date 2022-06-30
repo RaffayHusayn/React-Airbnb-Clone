@@ -1,12 +1,11 @@
 import Navbar from './components/Navbar';
 // import Hero from './components/Hero';
 import cards from "./Data/Card.js";
-import Card from './components/Card';
+import CardSlider from './components/CardSlider';
 import './App.css';
 
 
 
-// import katieImage from './images/katie.jpeg';
 
 function App() {
   return (
@@ -20,15 +19,7 @@ function App() {
       desc="life lesson with raffay"
       price="400"
       /> */}
-
-      {cards.map(card=>(
-        <Card
-            image={card.image}
-            rating={card.rating}
-            desc={card.desc}
-            price={card.price}
-        />
-      ))}
+      <CardSlider cards={cards} />
     </div>
   );
 }
