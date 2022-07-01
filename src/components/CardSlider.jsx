@@ -12,6 +12,7 @@ function CardSlider(props) {
           rating={card.rating}
           desc={card.desc}
           price={card.price}
+          availableSpots={card.availableSpots}
         />
       ))}
     </div>

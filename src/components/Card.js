@@ -6,7 +6,7 @@ function Card(props) {
     <div className="card">
       <img src={props.image} alt="card-person" className="card-image" />
       <div className="card-container">
-        <div className="card-tag">SOLD OUT</div>
+        {props.availableSpots === 0 && <div className="card-tag">SOLD OUT</div>}
         <div className="card-rating">
           <img src={starImage} alt="star-rating" className="card-star" />
           <p className="card-rating-text">
