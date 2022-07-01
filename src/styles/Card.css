@@ -5,6 +5,7 @@
   max-width: 176px;
   height: auto;
   font-size: 12px;
+  position: relative;
   /* border-radius: 10px; */
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 }
@@ -45,4 +46,15 @@
   margin: 10px 0 0 0;
   /* padding-left: 10px ; */
   text-align: left;
+}
+
+.card-tag {
+  background-color: white;
+  border-radius: 3px;
+  position: absolute;
+  padding: 2px 4px;
+  top: 8px;
+  left: 8px;
+  font-size: 10px;
+  font-weight: 600;
 }
