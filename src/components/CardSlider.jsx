@@ -3,7 +3,7 @@ import Card from './Card';
 import katieImage from '../images/katie.jpeg';
 import '../styles/CardSlider.css';
 
-function CardSlider({ ...cards }) {
+function CardSlider({ cards }) {
   return (
     <div className="card-slider">
       {cards.map((card) => (

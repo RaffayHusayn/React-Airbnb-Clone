@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <CardSlider cards={cards} />
+      <CardSlider cards={cards} /> 
     </div>
   );
 }

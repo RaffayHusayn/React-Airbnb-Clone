@@ -3,10 +3,10 @@ import katieImage from '../images/katie.jpeg';
 const cards = [
   {
     image: katieImage,
-    rating: { stars: 4.5, totalratings: 7, location: 'Pakistan' },
-    desc: 'should be zero',
+    rating: { stars: 4.5, totalratings: 7, location: 'Online' },
+    desc: 'should be online with spots',
     price: 'zero',
-    availableSpots: 0,
+    availableSpots: 10,
   },
   {
     image: katieImage,
@@ -24,17 +24,17 @@ const cards = [
   },
   {
     image: katieImage,
-    rating: { stars: 4.5, totalratings: 7, location: 'Pakistan' },
+    rating: { stars: 4.5, totalratings: 7, location: 'Online' },
     desc: 'using Data/Card.js',
     price: 'Infinite',
     availableSpots: 30,
   },
   {
     image: katieImage,
-    rating: { stars: 4.5, totalratings: 7, location: 'Pakistan' },
+    rating: { stars: 4.5, totalratings: 7, location: 'Online' },
     desc: 'using Data/Card.js',
     price: 'Infinite',
-    availableSpots: 10,
+    availableSpots: 0,
   },
   {
     image: katieImage,
