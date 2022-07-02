@@ -1,12 +1,12 @@
-import Card from "./Card";
-import katieImage from "../images/katie.jpeg";
-import "../styles/CardSlider.css";
+import React from 'react';
+import Card from './Card';
+import katieImage from '../images/katie.jpeg';
+import '../styles/CardSlider.css';
 
-function CardSlider(props) {
-  console.log("in the card slider component");
+function CardSlider({ ...cards }) {
   return (
     <div className="card-slider">
-      {props.cards.map((card) => (
+      {cards.map((card) => (
         <Card
           image={katieImage}
           rating={card.rating}
