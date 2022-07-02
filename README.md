@@ -1,1 +1,1 @@
-## Week # 1 : Create a React Travel Journal
+## Week # 1 : Create a React Airbnb Clone
